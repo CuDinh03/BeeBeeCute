@@ -1,6 +1,6 @@
 const pages = [
 
-    // Dashboards
+    // trangchu
 
     {
         output: './index.html',
@@ -10,6 +10,25 @@ const pages = [
             heading_icon: 'pe-7s-car icon-gradient bg-mean-fruit'
         },
         template: './src/DemoPages/dashboards/dashboard-example-1.hbs'
+    },
+    
+    {
+        output: './course.html',
+        content: {
+            title: 'Danh sách khoá học',
+            description: 'Danh sách các khoá học đang có',
+            heading_icon: 'pe-7s-car icon-gradient bg-mean-fruit'
+        },
+        template: './src/DemoPages/dashboards/dashboard-course.hbs'
+    },
+    {
+        output: './payment.html',
+        content: {
+            title: 'Thanh toán',
+            description: 'Thanh toán học phí',
+            heading_icon: 'pe-7s-car icon-gradient bg-mean-fruit'
+        },
+        template: './src/DemoPages/dashboards/dashboard-payment.hbs'
     },
     // UI Elements
     {
